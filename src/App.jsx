@@ -233,6 +233,13 @@ function App() {
           <div className="space-y-6">
             {/* Template Input Section */}
             <section className="bg-gray-800 border border-gray-700 rounded-lg p-6 shadow-lg">
+              <div className="space-y-4">
+                <a href="metadata_acuan.xml" download className="text-blue-400 hover:text-blue-300 underline text-sm font-medium">
+                  📥 Unduh Template XML
+                </a>
+              </div>
+            </section>
+            <section className="bg-gray-800 border border-gray-700 rounded-lg p-6 shadow-lg">
               <h2 className="text-xl font-semibold mb-4">Masukkan Template XML</h2>
 
               <div className="space-y-4">
