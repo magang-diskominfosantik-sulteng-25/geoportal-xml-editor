@@ -195,14 +195,6 @@ function App() {
           <div className="flex items-center justify-between">
             <h1 className="text-3xl font-bold text-white">Geoportal XML Editor</h1>
             <div className="flex items-center gap-4">
-              <a
-                href="https://obtainable-cemetery-11e.notion.site/Panduan-Pengisian-XML-1f9d84c0d0ff8059837ac379697eddda"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="text-blue-400 hover:text-blue-300 underline text-sm font-medium"
-              >
-                📖 Panduan Pengisian
-              </a>
               <span className={`inline-flex items-center px-4 py-2 rounded-full text-sm font-medium border ${status.ok ? "bg-green-900 text-green-300 border-green-700" : "bg-red-900 text-red-300 border-red-700"}`}>{status.text}</span>
             </div>
           </div>
@@ -234,8 +226,17 @@ function App() {
             {/* Template Input Section */}
             <section className="bg-gray-800 border border-gray-700 rounded-lg p-6 shadow-lg">
               <div className="space-y-4">
-                <a href="metadata_acuan.xml" download className="text-blue-400 hover:text-blue-300 underline text-sm font-medium">
+                <a href="/metadata_acuan.xml" download className="text-blue-400 hover:text-blue-300 underline text-sm font-medium">
                   📥 Unduh Template XML
+                </a>
+                <br />
+                <a
+                  href="https://obtainable-cemetery-11e.notion.site/Panduan-Pengisian-XML-1f9d84c0d0ff8059837ac379697eddda"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-blue-400 hover:text-blue-300 underline text-sm font-medium"
+                >
+                  📖 Panduan Pengisian
                 </a>
               </div>
             </section>
